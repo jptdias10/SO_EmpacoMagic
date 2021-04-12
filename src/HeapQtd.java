@@ -99,8 +99,8 @@ public class HeapQtd {
      * @return
      */
     private int compare(Pedido item, Pedido item2) {
-        int aux = item.getPrazo();
-        int aux2 = item2.getPrazo();
+        int aux = item.getTotalProdutos();
+        int aux2 = item2.getTotalProdutos();
 
         return aux - aux2;
     }
